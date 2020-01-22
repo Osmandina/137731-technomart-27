@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Адина Абдылдаева](https://up.htmlacademy.ru/htmlcss/27/user/137731).
-* Наставник: [Ольга Дука] (https://up.htmlacademy.ru/htmlcss/27/user/337127).
+* Наставник: [Ольга Дука](https://up.htmlacademy.ru/htmlcss/27/user/337127).
 
 ---
 
