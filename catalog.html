@@ -10,22 +10,25 @@
         <a class="header-logo" href="index.html">
           <img src="img/logo.png" alt="Логотип Техномарт" class="logo" width="108" height="18">
         </a>
-        <form action="https://echo/htmlacademy.ru" method="get">
-          <input type="search" name="" id="">
+        <form action="https://echo/htmlacademy.ru">
+          <input type="search" name="search" id="search" placeholder="Поиск:">
+          <button type="submit"></button>
         </form>
-        <div>Закладки</div>
-        <div>Корзина</div>
-        <button>Оформить заказ</button>
+        <div>
+          <a href="">Закладки</a>
+          <a href="">Корзина</a>
+          <a href="">Оформить заказ</a>
+        </div>
         <div class="contact-info">
           <p class="tagline">Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</p>
           <div class="contacs">
-            <span>
-              <a href="" class="phone">+7 (812) 555-05-55</a>
-            </span>
+            <a href="" class="phone">+7 (812) 555-05-55</a>
             <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           </div>
-          <a href="#">Войти</a>
-          <a href="#">Регистрация</a>
+          <div>
+            <a href="#">Войти</a>
+            <a href="#">Регистрация</a>
+          </div>
         </div>
       </div>
       <nav class="site-navigation">
@@ -42,12 +45,6 @@
     </header>
 
     <main>
-      <section class="cart-popup">
-        <button class="close"></button>
-        <h3>Товар добавлен в корзину!</h3>
-        <a href="#">Оформить заказ</a>
-        <button>Продолжить покупки</button>
-      </section>
       <ul class="breadcrumbs">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">Каталог</a></li>
@@ -57,7 +54,7 @@
 
       <section class="filter">
         <div class="price"></div>
-          <form class="">
+          <form class="" action="https://echo/htmlacademy.ru" method="get">
             <fieldset>
               <legend>Производители:</legend>
               <ul class="manufacture">
@@ -268,5 +265,12 @@
         </div>
       </div>
     </footer>
+
+    <section class="cart-popup visually-hidden">
+      <button class="close"></button>
+      <h3>Товар добавлен в корзину!</h3>
+      <a href="#">Оформить заказ</a>
+      <button type="button">Продолжить покупки</button>
+    </section>
   </body>
 </html>
