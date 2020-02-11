@@ -53,17 +53,35 @@
       </ul>
 
       <section class="filter">
-        <div class="price"></div>
-          <form class="" action="https://echo/htmlacademy.ru" method="get">
-            <fieldset>
-              <legend>Производители:</legend>
-              <ul class="manufacture">
-                <li><label for="bosch"><input type="checkbox" name="bosch" id="bosch" checked>Bosch</label></li>
-                <li><label for="interskol"><input type="checkbox" name="interskol" id="interskol">ИНТЕРСКОЛ</label></li>
-                <li><label for="makita"><input type="checkbox" name="makita" id="makita" checked>Makita</label></li>
-                <li><label for="dewalt"><input type="checkbox" name="dewalt" id="dewalt">Dewalt</label></li>
-                <li><label for="hitachi"><input type="checkbox" name="hitachi" id="hitachi">Hitachi</label></li>
-              </ul>
+        <span>Фильтр:</span>
+        <form class="" action="https://echo/htmlacademy.ru" method="get">
+          <fieldset>
+            <legend>Цена:</legend>
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                <label class="visually-hidden" for="min-price">Цена от</label>
+                <input id="min-price" name="min-price" type="number" value="0">
+                <label class="visually-hidden" for="max-price">Цена до</label>
+                <input id="max-price" name="max-price" type="number" value="30000">
+              </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Производители:</legend>
+            <ul class="manufacture">
+              <li><label for="bosch"><input type="checkbox" name="bosch" id="bosch" checked>Bosch</label></li>
+              <li><label for="interskol"><input type="checkbox" name="interskol" id="interskol">ИНТЕРСКОЛ</label></li>
+              <li><label for="makita"><input type="checkbox" name="makita" id="makita" checked>Makita</label></li>
+              <li><label for="dewalt"><input type="checkbox" name="dewalt" id="dewalt">Dewalt</label></li>
+              <li><label for="hitachi"><input type="checkbox" name="hitachi" id="hitachi">Hitachi</label></li>
+            </ul>
           </fieldset>
           <fieldset>
             <legend>Питание:</legend>
@@ -79,7 +97,12 @@
       <h1>Перфораторы</h1>
       <section class="catalog">
         <div class="sort">
-          <!-- здесь будет сортировка -->
+          <span>Сортировка</span>
+          <a href="">По цене</a>
+          <a href="">По типу</a>
+          <a href="">По функционалу</a>
+          <a class="price-low" href=""></a>
+          <a class="price-top" href=""></a>
         </div>
         <ul class="catalog-list">
           <li class="catalog-item">
