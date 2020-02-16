@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000;
+
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.header {
+  background-color: #f3f7f8;
+  font-family: "Cuprum";
+}
+
+.top-menu {
+  background-color: #293449;
+  color: #fff;
+}
+
+.top-menu .button-green {
+  background-color: #63a63e;
+}
+
+.top-menu .button-green:hover {
+  background-color: #5fbb2d;
+}
+
+.top-menu .button-green:active {
+  background-color: #518534;
+}
+
+.header-logo {
+  background-color: #ee3643;
+}
+
+.header-logo:hover {
+  background-color: #ca2c37;
+}
+
+.header-logo:active {
+  background-color: #ba2732;
+}
+
+.top-menu input,
+.top-menu a {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.search-field ::placeholder {
+  color: #fff;
+}
+
+.search-field input:focus {
+  color: #000;
+  background-color: #fff;
+}
+
+.top-menu-buttons a:hover {
+  background-color: #212a3a;
+}
+
+.top-menu-buttons a:active {
+  color: #babbbd;
+  background-color: #161d29;
+}
+
+.user-login a {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.user-login a:hover {
+  color: #ee3643;
+}
+
+.user-login a:active {
+  color: #b2b2b2;
+}
+
+.site-navigation {
+  background-color: #32425c;
+}
+
+.site-navigation a {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.site-navigation a:hover {
+  background-color: #293449;
+}
+
+.site-navigation a:active {
+  color: #8e939c;
+  background-color: #1d2739;
+}
+.bottom-menu .tagline {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  font-style: italic;
+  color: #ee3643
+}
+
+.bottom-menu .phone {
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ee3643;
+}
+
+.bottom-menu .address {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #32425c;
+}
+
+.about {
+  font-family: "Cuprum";
+  font-weight: 400;
+}
+
+.about h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.about-company li {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.main-content .button,
+.main-content button {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  border: none;
+}
+
+.main-content .button:hover,
+.main-content button:hover {
+  background-color: #ca2c37;
+}
+
+.main-content .button:active,
+.main-content button:active {
+  background-color: #ba2732;
+}
+
+.footer {
+  background-color: #32425c;
+  font-family: "Cuprum";
+  color: #fff;
+}
+
+.footer-logo {
+  background-color: #ee3643;
+}
+
+.footer-middle a,
+.footer-top a {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #f1f5f7;
+}
+
+.footer-middle a,
+.footer-contacts a {
+  color: #ffda96;
+}
+
+.footer-middle a:hover,
+.footer-contacts a:hover {
+  text-decoration: underline;
+}
+
+.footer-middle a:active,
+.footer-contacts a:active {
+  color: #ee3643;
+  text-decoration: none;
+}
+
+.footer-top a:hover,
+.footer-middle a:hover {
+  text-decoration: underline;
+}
+
+.footer-top a:active,
+.footer-middle a:active {
+  opacity: 0.5;
+}
+
+.footer-middle p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #f1f5f7;
+}
+
+.footer-bottom {
+  background-color: #293449;
+}
+
+.footer-bottom p {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.social-icons a {
+  background-color: #212a3a;
+}
