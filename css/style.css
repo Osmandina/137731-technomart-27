@@ -23,6 +23,14 @@ ul {
   display: none;
 }
 
+.btn {
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
 .header {
   background-color: #f3f7f8;
   font-family: "Cuprum";
@@ -175,6 +183,51 @@ ul {
 .main-content .button:active,
 .main-content button:active {
   background-color: #ba2732;
+}
+
+/* Стили для кнопок  */
+.top-menu-buttons .btn {
+  height: 42px;
+  width: 150px;
+  line-height: 42px;
+}
+
+.red-btn {
+  color: #fff;
+  background-color: #ee3643;
+}
+
+.slider .btn {
+  width: 195px;
+}
+
+.promo-block .promo-btn {
+  display: inline-block;
+  width: 135px;
+  color: #fff;
+  background-color: #000;
+  opacity: 0.1;
+}
+
+.popular-header .btn,
+.manufacture-header .btn {
+   width: 253px;
+}
+
+.about-company .btn {
+  width: 220px;
+}
+
+.contact-map .btn {
+  width: 300px;
+}
+
+.promo-block .promo-btn:hover {
+  opacity: 0.2;
+}
+
+.promo-block .promo-btn:active {
+  opacity: 0.3;
 }
 
 .footer {
