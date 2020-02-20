@@ -20,15 +20,13 @@ ul {
 }
 
 .visually-hidden {
-  display: none;
-}
-
-.btn {
-  text-align: center;
-  height: 38px;
-  line-height: 38px;
-  text-transform: uppercase;
-  display: inline-block;
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 .header {
@@ -41,15 +39,15 @@ ul {
   color: #fff;
 }
 
-.top-menu .button-green {
+.top-menu .btn-green {
   background-color: #63a63e;
 }
 
-.top-menu .button-green:hover {
+.top-menu .btn-green:hover {
   background-color: #5fbb2d;
 }
 
-.top-menu .button-green:active {
+.top-menu .btn-green:active {
   background-color: #518534;
 }
 
@@ -69,7 +67,6 @@ ul {
 .top-menu a {
   font-size: 17px;
   line-height: 18px;
-  font-weight: 400;
   color: #fff;
 }
 
@@ -80,29 +77,6 @@ ul {
 .search-field input:focus {
   color: #000;
   background-color: #fff;
-}
-
-.top-menu-buttons a:hover {
-  background-color: #212a3a;
-}
-
-.top-menu-buttons a:active {
-  color: #babbbd;
-  background-color: #161d29;
-}
-
-.user-login a {
-  font-size: 21px;
-  line-height: 21px;
-  font-weight: 400;
-}
-
-.user-login a:hover {
-  color: #ee3643;
-}
-
-.user-login a:active {
-  color: #b2b2b2;
 }
 
 .site-navigation {
@@ -164,62 +138,89 @@ ul {
   line-height: 20px;
 }
 
-.main-content .button,
-.main-content button {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #fff;
-  background-color: #ee3643;
-  text-transform: uppercase;
-  border: none;
-}
-
-.main-content .button:hover,
-.main-content button:hover {
-  background-color: #ca2c37;
-}
-
-.main-content .button:active,
-.main-content button:active {
-  background-color: #ba2732;
-}
-
 /* Стили для кнопок  */
-.top-menu-buttons .btn {
+
+.btn {
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.btn-sm {
+  height: 38px;
+  line-height: 38px;
+  width: 135px;
+}
+
+.top-menu-buttons .top-menu-btn {
   height: 42px;
   width: 150px;
   line-height: 42px;
+  border-radius: 0;
+  text-transform: none;
+}
+
+.top-menu-buttons .top-menu-btn:hover {
+  background-color: #212a3a;
+}
+
+.top-menu-buttons .top-menu-btn:active {
+  color: #babbbd;
+  background-color: #161d29;
+}
+
+.user-btn {
+  font-size: 21px;
+  color: #000;
+  background-color: #fff;
+  height: 45px;
+  line-height: 45px;
+  text-transform: none;
+}
+
+.user-login .btn-login {
+  width: 121px;
+}
+
+.user-login .btn-register {
+  width: 150px;
+}
+
+.user-login .user-btn:hover {
+  color: #ee3643;
+}
+
+.user-login .user-btn:active {
+  color: #b2b2b2;
 }
 
 .red-btn {
+  font-size: 14px;
+  line-height: 38px;
   color: #fff;
   background-color: #ee3643;
+  height: 38px;
 }
 
-.slider .btn {
+.slider .red-btn {
   width: 195px;
 }
 
+.main-content .red-btn:hover {
+  background-color: #ca2c37;
+}
+
+.main-content .red-btn:hover:active {
+  background-color: #ba2732;
+}
+
 .promo-block .promo-btn {
-  display: inline-block;
-  width: 135px;
-  color: #fff;
   background-color: #000;
   opacity: 0.1;
-}
-
-.popular-header .btn,
-.manufacture-header .btn {
-   width: 253px;
-}
-
-.about-company .btn {
-  width: 220px;
-}
-
-.contact-map .btn {
-  width: 300px;
 }
 
 .promo-block .promo-btn:hover {
@@ -228,6 +229,19 @@ ul {
 
 .promo-block .promo-btn:active {
   opacity: 0.3;
+}
+
+.popular-header .red-btn,
+.manufacture-header .red-btn {
+   width: 253px;
+}
+
+.about-company .red-btn {
+  width: 220px;
+}
+
+.contact-map .red-btn {
+  width: 300px;
 }
 
 .footer {
@@ -244,7 +258,6 @@ ul {
 .footer-top a {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 400;
   text-transform: capitalize;
   color: #f1f5f7;
 }
@@ -278,7 +291,6 @@ ul {
 .footer-middle p {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 400;
   color: #f1f5f7;
 }
 
@@ -289,7 +301,6 @@ ul {
 .footer-bottom p {
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
 }
 
 .footer ul {
