@@ -20,12 +20,12 @@ ul {
 }
 
 .visually-hidden {
-  position: absolute !important;
+  position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
-  padding:0 !important;
-  border:0 !important;
-  height: 1px !important;
-  width: 1px !important;
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
   overflow: hidden;
 }
 
@@ -39,15 +39,15 @@ ul {
   color: #fff;
 }
 
-.top-menu .btn-green {
+.btn-green {
   background-color: #63a63e;
 }
 
-.top-menu .btn-green:hover {
+.btn-green:hover {
   background-color: #5fbb2d;
 }
 
-.top-menu .btn-green:active {
+.btn-green:active {
   background-color: #518534;
 }
 
@@ -89,6 +89,9 @@ ul {
   font-weight: 400;
   text-transform: capitalize;
   color: #fff;
+  padding-left: 31px;
+  padding-right: 31px;
+
 }
 
 .site-navigation a:hover {
@@ -99,7 +102,8 @@ ul {
   color: #8e939c;
   background-color: #1d2739;
 }
-.bottom-menu .tagline {
+
+.tagline {
   font-size: 16px;
   line-height: 23px;
   font-weight: 400;
@@ -156,7 +160,7 @@ ul {
   width: 135px;
 }
 
-.top-menu-buttons .top-menu-btn {
+.top-menu-btn {
   height: 42px;
   width: 150px;
   line-height: 42px;
@@ -164,11 +168,11 @@ ul {
   text-transform: none;
 }
 
-.top-menu-buttons .top-menu-btn:hover {
+.top-menu-btn:hover {
   background-color: #212a3a;
 }
 
-.top-menu-buttons .top-menu-btn:active {
+.top-menu-btn:active {
   color: #babbbd;
   background-color: #161d29;
 }
@@ -182,19 +186,19 @@ ul {
   text-transform: none;
 }
 
-.user-login .btn-login {
+.btn-login {
   width: 121px;
 }
 
-.user-login .btn-register {
+.btn-register {
   width: 150px;
 }
 
-.user-login .user-btn:hover {
+.user-btn:hover {
   color: #ee3643;
 }
 
-.user-login .user-btn:active {
+.user-btn:active {
   color: #b2b2b2;
 }
 
@@ -218,16 +222,16 @@ ul {
   background-color: #ba2732;
 }
 
-.promo-block .promo-btn {
+.promo-btn {
   background-color: #000;
   opacity: 0.1;
 }
 
-.promo-block .promo-btn:hover {
+.promo-btn:hover {
   opacity: 0.2;
 }
 
-.promo-block .promo-btn:active {
+.promo-btn:active {
   opacity: 0.3;
 }
 
@@ -310,3 +314,138 @@ ul {
 .social-icons a {
   background-color: #212a3a;
 }
+
+.breadcrumbs a {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.catalog-title {
+  padding: 32px 30px;
+  background-color: #f2f6f8;
+}
+
+.catalog-title h1 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #32425c;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.filter-btn {
+  font-size: 13px;
+  line-height: 38px;
+  height: 38px;
+  width: 140px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+}
+
+.catalog-item {
+  max-width: 220px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.catalog-item-title {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000;
+}
+
+.buy-btn {
+  background-color: #63a63e;
+}
+
+.buy-btn:hover {
+  background-color: #5fbb2d;
+}
+
+.buy-btn:active {
+  background-color: #518534;
+}
+
+.save-btn {
+  color: #32425c;
+  background-color: #fff;
+  border: 3px solid #63a63e;
+}
+
+.save-btn:hover {
+  border: 3px solid #32425c;
+}
+
+.save-btn:active {
+  border: 3px solid #32425c;
+  opacity: 0.3;
+}
+
+
+.prices {
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.old-price {
+  color: #999999;
+  text-decoration: line-through;
+  
+}
+
+div.price {
+  width: 141px;
+  height: 38px;
+  margin: 0 auto;
+  line-height: 38px;
+  color: #fff;
+  background: url("../img/price-bg.png") no-repeat 0 0;
+}
+
+.filter-header,
+.sort-header {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.filter,
+.sort {
+  text-transform: uppercase;
+}
+
+.filter legend {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.filter label {
+  font-size: 15px;
+  line-height: 20px;
+  color: #000;
+}
+
+.sort a {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #ee3643;
+}
+
+.sort a:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.sort a:active {
+  color: #ee3643;
+  text-decoration: none;
+}
+
